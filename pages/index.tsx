@@ -80,7 +80,7 @@ const Index = () => {
 
   return (
     <div className="flex flex-col justify-center items-center min-h-screen">
-      <a href="https://www.acsu.buffalo.edu/~maxwell/Fundamental_Morse.html" className="text-blue-500 underline text-[1.5rem]">Help?</a>
+      <a href="https://www.acsu.buffalo.edu/~maxwell/Fundamental_Morse.html" className="text-blue-500 underline text-[1.5rem] text-center">Understanding Morse Code</a>
       <div className="flex justify-center items-center mt-10">
         <Image src={clown} alt="clown" width={300} height={300} />
       </div>
