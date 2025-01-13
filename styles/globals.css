@@ -1,0 +1,69 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.circle {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  margin: 5px;
+  opacity: 0;
+}
+
+.dot {
+  background-color: black;
+}
+
+.dash {
+  background-color: black;
+  width: 40px;
+}
+
+.green {
+  background-color: green;
+}
+
+.red {
+  background-color: red;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.pink {
+  background-color: pink;
+}
+
+.purple {
+  background-color: purple;
+}
+
+.orange {
+  background-color: orange;
+}
+
+.morse-group {
+  display: flex;
+}
+
+@keyframes blinkDot {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes appearSequence {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
